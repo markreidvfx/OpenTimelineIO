@@ -271,6 +271,8 @@ class ItemTests(unittest.TestCase, otio_test_utils.OTIOAssertions):
         decoded = otio.adapters.otio_json.read_from_string(encoded)
         self.assertIsOTIOEquivalentTo(it, decoded)
         self.assertJsonEqual(it.markers, decoded.markers)
+        it.markers.clear()
+        self.assertEqual(len(it.makers), 0)
 
     def test_enabled(self):
         tr = otio.opentime.TimeRange(
