@@ -44,13 +44,6 @@
             "suffixes" : []
         },
         {
-            "OTIO_SCHEMA" : "Adapter.1",
-            "name" : "AAF",
-            "execution_scope" : "in process",
-            "filepath" : "advanced_authoring_format.py",
-            "suffixes" : ["aaf"]
-        },
-        {
             "OTIO_SCHEMA": "Adapter.1",
             "name": "xges",
             "execution_scope": "in process",
