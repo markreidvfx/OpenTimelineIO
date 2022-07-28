@@ -136,7 +136,7 @@ def upgrade_function_for(cls, version_to_upgrade_to):
 
 def serializable_field(name, required_type=None, doc=None):
     """
-    Convienence function for adding attributes to child classes of
+    Convenience function for adding attributes to child classes of
     :class:`~SerializableObject` in such a way that they will be serialized/deserialized
     automatically.
 
